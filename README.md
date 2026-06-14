@@ -12,7 +12,7 @@ The aim of the project was to analyse healthcare appointment data, identify atte
 
 The project follows the workflow below:
 
-![ETL Pipeline](docs/etl_pipeline.png)
+<img src="docs/etl_pipeline.png" alt="Project Architecture" width="400">
 
 --- 
 
