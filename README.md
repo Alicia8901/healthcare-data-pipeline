@@ -22,6 +22,9 @@ The project follows the workflow below:
 * Pandas
 * MySQL
 * DBeaver
+* AWS S3
+* AWS Aurora
+* AWS Redshift
 * Power BI
 * DAX
 * Git
@@ -70,6 +73,21 @@ Example query:
 SELECT COUNT(*) 
 FROM appointments;
 
+---
+## AWS Cloud Integration ##
+
+This project explores the use of AWS cloud services to support
+healthcare data storage, relational database management and
+analytical data warehousing.
+
+AWS services:
+
+* Amazon S3: Cloud storage for healthcare datasets.
+* Amazon Aurora: Relational database management.
+* Amazon Redshift: Analytical data warehousing.
+
+The AWS architecture supports the preparation and organisation
+of healthcare data for downstream reporting and analytics.
 ---
 
 ## Power BI Dashboard ##
@@ -138,10 +156,10 @@ DIVIDE(
 
 ## Future Improvements ##
 
-* Automate database loading using Python and MySQL Connector.
-* Add additional Power BI visuals and drill-through functionality.
-* Build a scheduled ETL pipeline.
-* Deploy dashboards using Power BI Service.
+* Implement automated AWS-based data ingestion.
+* Introduce pipeline monitoring and error handling.
+* Implement automated data quality checks.
+
 
 ---
 
