@@ -5,7 +5,6 @@
 This project demonstrates an end-to-end healthcare data engineering and analytics workflow using Python, MySQL, DBeaver, and Power BI.
 
 The aim of the project was to analyse healthcare appointment data, identify attendance patterns, and investigate appointment no-show behaviour through data cleaning, SQL analysis, and dashboard reporting.
-
 ---
 
 ## Project Architecture ##
