@@ -1,25 +1,15 @@
 
-<<<<<<< HEAD
-## Project Overview ##
-This project demonstrates an end-to-end healthcare data engineering and analytics pipeline using Python, Pandas, MySQL, SQL, and Power BI, incorporating AWS cloud services for data storage and analytical processing.
-
-The aim of the project was to process and analyse healthcare appointment data through data extraction, cleaning, transformation and SQL analysis, identifying attendance patterns, appointment no-show behaviour and waiting times. The resulting insights were presented through interactive Power BI dashboards to support data-driven decision-making.
-
----
-## Project Architecture ##
-=======
 # Healthcare Appointment Analysis Pipeline
 
 ## Project Overview
 
-This project demonstrates an end-to-end healthcare data engineering and analytics workflow using Python, Pandas, MySQL, DBeaver, AWS cloud services, and Power BI.
+This project demonstrates an end-to-end healthcare data engineering and analytics pipeline using Python, Pandas, MySQL, SQL, Power BI, and AWS cloud services for data storage and analytical processing.
 
-The aim of the project was to analyse healthcare appointment data, identify attendance patterns, and investigate appointment no-show behaviour through data cleaning, SQL analysis, cloud-based data processing, and dashboard reporting.
+The aim of the project is to process and analyse healthcare appointment data through data extraction, cleaning, transformation, and SQL analysis. It identifies attendance patterns, appointment no-show behaviour, and waiting times. The resulting insights support data-driven decision-making through reporting and visualisation.
 
 ---
 
 ## Project Architecture
->>>>>>> 5d0093c (Add updated pipeline folder)
 
 The project follows the workflow below:
 
@@ -33,17 +23,11 @@ The project follows the workflow below:
 * Pandas
 * MySQL
 * DBeaver
-<<<<<<< HEAD
-* AWS S3
-* AWS Aurora
-* AWS Redshift
-=======
 * Amazon S3
 * AWS Glue
 * Amazon Athena
-* Amazon Aurora
-* Amazon Redshift
->>>>>>> 5d0093c (Add updated pipeline folder)
+* Amazon Aurora (planned)
+* Amazon Redshift (planned)
 * Power BI
 * DAX
 * Git
@@ -212,19 +196,14 @@ DIVIDE(
 
 ## Future Improvements
 
-<<<<<<< HEAD
-* Implement automated AWS-based data ingestion.
-* Introduce pipeline monitoring and error handling.
-* Implement automated data quality checks.
-
-=======
-* Automate database loading using Python and MySQL Connector.
-* Add additional Power BI visuals and drill-through functionality.
-* Build a scheduled ETL pipeline.
-* Deploy dashboards using Power BI Service.
-* Extend cloud integration by deploying Amazon Aurora and Amazon Redshift.
-* Introduce pipeline monitoring and automated error handling.
->>>>>>> 5d0093c (Add updated pipeline folder)
+- Implement automated AWS-based data ingestion.
+- Introduce pipeline monitoring and error handling.
+- Implement automated data quality checks.
+- Automate database loading using Python and MySQL Connector.
+- Add additional Power BI visuals and drill-through functionality.
+- Build a scheduled ETL pipeline.
+- Deploy dashboards using Power BI Service.
+- Extend cloud integration by deploying Amazon Aurora and Amazon Redshift.
 
 ---
 
