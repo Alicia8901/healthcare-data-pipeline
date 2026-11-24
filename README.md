@@ -1,12 +1,11 @@
 # Healthcare Appointment Analysis Pipeline #
 
 ## Project Overview ##
+This project demonstrates an end-to-end healthcare data engineering and analytics pipeline using Python, Pandas, MySQL, SQL, and Power BI, incorporating AWS cloud services for data storage and analytical processing.
 
-This project demonstrates an end-to-end healthcare data engineering and analytics workflow using Python, MySQL, DBeaver, and Power BI.
+The aim of the project was to process and analyse healthcare appointment data through data extraction, cleaning, transformation and SQL analysis, identifying attendance patterns, appointment no-show behaviour and waiting times. The resulting insights were presented through interactive Power BI dashboards to support data-driven decision-making.
 
-The aim of the project was to analyse healthcare appointment data, identify attendance patterns, and investigate appointment no-show behaviour through data cleaning, SQL analysis, and dashboard reporting.
 ---
-
 ## Project Architecture ##
 
 The project follows the workflow below:
